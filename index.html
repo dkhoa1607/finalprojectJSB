@@ -1,32 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
-  </head>
-  <body>
-    <header>
-      <video autoplay muted loop id="myVideo">
-        <source src="video/vid.mp4" type="video/mp4" />
-      </video>
 
-      <div class="content">
-        <div class="nav-bar">
-          <nav>
-            <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="login.html">Login</a></li>
-              <li><a href="register.html">Sign up</a></li>
-            </ul>
-          </nav>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <video autoplay muted loop id="myVideo">
+      <source src="video/vid.mp4" type="video/mp4" />
+    </video>
+
+    <div class="content">
+      <div class="nav-bar">
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="register.html">Sign up</a></li>
+          </ul>
+        </nav>
+        <div class="option">
+          <div class="col">
+            <h1>Lunar New Year</h1>
+            <p class="detail">
+              Lunar New Year is the beginning of a calendar year whose months
+              are moon cycles, based on the lunar calendar or lunisolar
+              calendar. Lunar New Year was first celebrated in the region of
+              the Korean peninsula. The Lunar New Year as a celebration is
+              observed by numerous cultures
+            </p>
+          </div>
+          <div class="col">
+            <div class="card card1" id="vietnam" onclick="navigate('vietnam')">
+              <h5>In Viet Nam</h5>
+            </div>
+            <div class="card card2" id="japan" onclick="navigate('japan')">
+              <h5>In Japan</h5>
+            </div>
+            <div class="card card3" id="china" onclick="navigate('china')">
+              <h5>In China</h5>
+            </div>
+            <div class="card card4" id="korea" onclick="navigate('korea')">
+              <h5>In South Korea</h5>
+            </div>
+          </div>
         </div>
       </div>
-    </header>
+    </div>
+  </header>
+</body>
+<script src="/index.js"></script>
 
-    <div class="video"></div>
-  </body>
 </html>
