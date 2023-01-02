@@ -74,12 +74,14 @@ h5 {
     font-size: 18px;
 }
 p {
-    font-size: 11px;
+    font-size: 12px;
     line-height: 15px;
+    text-align: justify;
+    width: 80%;
 }
 /* Card */
 .card {
-    width: 209px;
+    width: 218px;
     height: 240px;
     display: inline-block;
     border-radius: 10px;
@@ -105,7 +107,4 @@ p {
 }
 .card:hover {
     transform: translateY(-10px);
-}
-.detail {
-    
 }
