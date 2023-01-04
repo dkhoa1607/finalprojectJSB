@@ -134,4 +134,3 @@
     document.getElementById("showMain").style.display = "block";
   }, 8500);
 
-// Firework

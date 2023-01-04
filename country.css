@@ -1,17 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,200;0,300;0,500;1,700&display=swap');
-
 * {
     margin: 0;
     padding: 0;
     list-style: none;
     text-decoration: none;
-    font-family: "Google Sans Regular";
+    font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
 
 body {
     background: #fefefe;
-
 }
 
 header {
@@ -30,6 +27,18 @@ header {
     color: #fefefe;
 }
 
+.logo a:link {
+    color: white;
+}
+
+.logo a:active {
+    color: white;
+}
+
+.logo a:visited {
+    color: white;
+}
+
 .hamburger {
     display: none;
 }
@@ -37,7 +46,7 @@ header {
 .nav-bar ul {
     display: flex;
 }
- 
+
 .nav-bar ul li a {
     display: block;
     color: #fefefe;
@@ -47,10 +56,11 @@ header {
     transition: 0.2s;
     margin: 0 5px;
 }
- .nav-bar ul li a:hover {
+
+.nav-bar ul li a:hover {
     color: #11101b;
     background: #fefefe;
- }
+}
 
 
 @media only screen and (max-witdh: 1320px) {
@@ -70,12 +80,14 @@ header {
         display: block;
         cursor: pointer;
     }
+
     .hamburger .line {
         width: 30px;
         height: 3px;
         background: #fefefe;
         margin: 6px 0;
     }
+
     .nav-bar {
         position: absolute;
         top: 80px;
@@ -86,6 +98,7 @@ header {
         transition: 0.2s;
         overflow: hidden;
     }
+
     .nav-bar ul {
         display: block;
         width: fit-content;
@@ -94,6 +107,7 @@ header {
         transition: 0.5s;
         opacity: 0;
     }
+
     .nav-bar ul li a {
         margin-bottom: 12px;
         color: red;
@@ -105,11 +119,13 @@ header {
     max-width: 1440px;
     margin: auto;
 }
+
 .main img {
     max-width: 100%;
     object-fit: contain;
     height: 100%;
 }
+
 .main {
     display: flex;
 }
@@ -124,6 +140,7 @@ header {
     height: 100%;
     align-content: stretch;
     flex-direction: column;
+    text-align: justify;
 }
 
 .main-title {
@@ -131,6 +148,7 @@ header {
     text-align: center;
     color: white;
 }
+
 .main-container {
     margin: 40px 0px 40px 0px;
     display: flex;
@@ -159,10 +177,10 @@ header {
     text-align: center;
     padding: 30px 60px 30px 60px;
     font-size: 18px;
+    text-align: justify;
 }
 
 .footer {
     padding: 50px;
     text-align: center;
 }
-

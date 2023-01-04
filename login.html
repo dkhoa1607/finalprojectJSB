@@ -4,20 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style1.css">
+    <link rel="icon" type="image/x-icon" href="/img/eclipse.png">
+    <link rel="stylesheet" href="login.css">
     <title>Login</title>
 </head>
 <body>
     <div class="login-card">
         <h2>Login</h2>
         <h3>Enter your information</h3>
-        <form class="login-form">
-            <input type="text" placeholder="Username">
-            <input type="password" placeholder="Password">
+        <form class="login-form" name="form" method="post" id="form-login" action="#">
+            <input type="text" id="Email" name="Email" placeholder="Email">
+            <input type="password" id="password" name="password" placeholder="Password">
             <a href="#">Forget your password?</a>
             <button type="submit">LOGIN</button>
         </form>
     </div>
-    
+    <script src="login.js"></script>
 </body>
 </html>
