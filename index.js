@@ -1,4 +1,3 @@
 function navigate(location) {
-
-    window.location.href = location + '.html'
+  window.location.href = "./" + location + ".html";
 }
